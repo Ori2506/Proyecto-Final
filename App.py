@@ -19,4 +19,3 @@ class App:
                 self.film_obj.append(Film(film["title"]),(film["episode_id"]),(film["release_date"]),(film["opening_crawl"]),(film["director"]) )
 
     def mostrar_films(self):
-         
