@@ -10,6 +10,7 @@ class App:
         api = API()
         api.cargar_personajes()
         
+<<<<<<< HEAD
         print("Starting the app...")
 
 
@@ -19,3 +20,6 @@ class App:
                 self.film_obj.append(Film(film["title"]),(film["episode_id"]),(film["release_date"]),(film["opening_crawl"]),(film["director"]) )
 
     def mostrar_films(self):
+=======
+        print("Starting the app...")
+>>>>>>> 8e2ce9dda0ad13dba434029c31838249b00b8f04
