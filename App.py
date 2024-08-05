@@ -30,8 +30,25 @@ class App:
     def crear_mision(self):
         print("Creemos una nueva misión")
         nombre_mision=input("Ingrese el nombre de la mision: ")
-        planeta_destino=input("Ingrese el planeta destino: ")
-        if planeta_destino not in #Aqui poner la lista de los planetas cuando alguien la ponga
+        while True:
+            planeta_destino = input("Ingrese el planeta destino: ")
+            if planeta_destino not in #lista de planetas objetos
+                print("Planeta inválido")
+            else:
+                break
+            
+        armas_utilizar = []
+        n = 0
+
+        while n < 7:
+            arma_seleccionada = input("Ingrese una arma: ")
+        if arma_seleccionada in #lista de armas
+            armas_utilizar.append(arma_seleccionada)
+            n += 1
+        else:
+            print("Arma inválida. Intente nuevamente.")
+        
+
 
 
 
