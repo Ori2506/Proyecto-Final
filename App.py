@@ -27,6 +27,15 @@ class App:
             print(f"Director: {film.director}")
             print("---")
 
+    def crear_mision(self):
+        print("Creemos una nueva misión")
+        nombre_mision=input("Ingrese el nombre de la mision: ")
+        planeta_destino=input("Ingrese el planeta destino: ")
+        if planeta_destino not in #Aqui poner la lista de los planetas cuando alguien la ponga
+
+
+
+#para probar
 def main():
     app=App()
     app.start()
