@@ -1,7 +1,6 @@
 import requests as rq
 
-class API:
-
+class API: 
     def cargar_api(self, link):
         response = rq.get(link)
         print(response.json())
@@ -15,7 +14,7 @@ class API:
         db_films = self.cargar_api("https://www.swapi.tech/api/films/")
         return db_films
     
-    def cargar_planet(self):
+    def cargar_planets(self):
         db_planets =self.cargar_api("https://www.swapi.tech/api/planets/")
         return db_planets
     
