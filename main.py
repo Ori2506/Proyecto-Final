@@ -1,4 +1,4 @@
-from App import App 
+from Filmshow import App 
 
 app = App()
 app.start()
