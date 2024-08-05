@@ -1,4 +1,6 @@
 from Filmshow import App 
 
-app = App()
-app.start()
+def main():
+    app = App()
+    app.start()
+main()
