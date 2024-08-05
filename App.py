@@ -36,17 +36,35 @@ class App:
                 print("Planeta inválido")
             else:
                 break
-            
+
         armas_utilizar = []
         n = 0
 
         while n < 7:
-            arma_seleccionada = input("Ingrese una arma: ")
-        if arma_seleccionada in #lista de armas
+            arma_seleccionada = input("Ingrese una arma o 0 para finalizar: ")
+
+        if arma_seleccionada==0:
+            break
+        elif arma_seleccionada in #lista de armas
             armas_utilizar.append(arma_seleccionada)
             n += 1
         else:
             print("Arma inválida. Intente nuevamente.")
+
+        integrantes_mision=[]
+        m=0
+
+        while n<7:
+            integrante_seleccionado= input("Ingrese un integrante de la misión o 0 para finalizar: ")
+
+        if integrante_seleccionado==0:
+            break
+        elif integrante_seleccionado in #lista de people
+            integrantes_mision.append(integrante_seleccionado)
+            m+=1
+        else:
+            print("Integrante inválido. Intente nuevamente")
+
         
 
 
